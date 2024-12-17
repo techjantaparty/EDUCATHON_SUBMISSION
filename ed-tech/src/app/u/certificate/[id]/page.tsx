@@ -68,7 +68,7 @@ const CertificatePage = ({ params }: { params: { id: string } }) => {
     } catch (error) {
       console.error("Error during minting process:", error);
     } finally {
-      router.push("https://edu-chain-bs-2.vercel.app");
+      router.push("https://credential-verification-system.vercel.app");
       setLoading(false);
     }
   }
