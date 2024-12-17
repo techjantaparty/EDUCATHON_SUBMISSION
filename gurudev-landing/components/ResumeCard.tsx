@@ -63,14 +63,14 @@ const ResumeCard = ({ content }: { content: ResumeCardProps }) => {
             </p>
           )}
           <div className="flex gap-4">
-            <Link href={"https://learnit-tawny.vercel.app"}>
+            <Link href={"https://note-genie.vercel.app"}>
               <button className="mt-6 bg-blue-600 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded">
-                Start Learning
+                Note Genie AI
               </button>
             </Link>
-            <Link href={"https://atmanirvar-one.vercel.app"}>
+            <Link href={"https://skill-sarthi.vercel.app"}>
               <button className="mt-6 bg-blue-600 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded">
-                Explore courses
+                Skill Sarthi
               </button>
             </Link>
           </div>
