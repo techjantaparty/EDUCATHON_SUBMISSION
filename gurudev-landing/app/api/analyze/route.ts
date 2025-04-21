@@ -40,6 +40,7 @@ export async function POST(req: NextRequest) {
     - "summary": The summary of the resume
     - "suggestions": An array of suggestions as strings for improving the resume. (Don't inlcude any special characters in the suggestions)
     - "additonal_tips": A string containing any additional tips or suggestions for the candidate to improve their resume.
+    - "Suggested Career Options" : An array of suggested career options dependin on the skills in the resume
   
     Example output for successful extraction:
     {
@@ -50,6 +51,7 @@ export async function POST(req: NextRequest) {
         "summary": "write summary here",
         "suggestions": ["write suggestions here"],
         "additional_tips": "write additional tips here"
+        "Suggested Career Options": "provide some suggested job roles"
       }
     }
   
