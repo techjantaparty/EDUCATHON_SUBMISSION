@@ -25,7 +25,7 @@ export default function BackgroundBeamsWithCollisionDemo() {
                 Explore More
               </div>
             </Link>
-{/*             <Link
+            <Link
               href={"https://credential-verification-system.vercel.app"}
               target="_blank"
               className="p-[3px] relative mt-6"
@@ -34,7 +34,7 @@ export default function BackgroundBeamsWithCollisionDemo() {
               <div className="px-8 py-2 bg-black rounded-[6px] relative group transition duration-200 text-xl font-extrabold text-white hover:bg-transparent">
                 Mint Documents
               </div>
-            </Link> */}
+            </Link>
           </div>
         </div>
       </BackgroundBeamsWithCollision>
